@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/teams/teams",
+    "pages/answer/answer",
+    "pages/personal/personal",
+    "pages/anspublish/anspublish",
+    "pages/ask/ask",
+    "pages/ansm/ansm",
+    "pages/help/help",
+    "pages/competition/competition",
+    "pages/set/set",
+    "pages/ownmess/ownmess",
+    "pages/publish/publish",
+    "pages/bisai/bisai"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+  
+    "navigationBarTitleText": "竞赛组队答疑系统",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#b6b6b6",
+    "selectedColor": "#8b0000",
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "text": "主页",
+        "iconPath":"images/ic_menu_choice_nor.png",
+        "selectedIconPath":"images/ic_menu_choice_pressed.png"
+      },{
+        "pagePath":"pages/teams/teams",
+        "text":"组队",
+        "iconPath":"images/ic_menu_topic_nor.png",
+        "selectedIconPath":"images/ic_menu_topic_pressed.png"
+      },{
+        "pagePath":"pages/answer/answer",
+        "text": "答疑",
+        "iconPath":"images/ic_menu_sort_nor.png",
+        "selectedIconPath":"images/ic_menu_sort_pressed.png"
+      },{
+        "pagePath":"pages/personal/personal",
+        "text": "我的",
+        "iconPath":"images/ic_menu_me_nor.png",
+        "selectedIconPath":"images/ic_menu_me_pressed.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

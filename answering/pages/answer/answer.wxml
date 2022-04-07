@@ -1,0 +1,56 @@
+<!-- <view class='box'>
+  <view class='box-span' style='flex:1'>
+    <text class='left'>我的提问</text>
+    <view class='right'>
+      <image src='/images/address_right.png'></image>
+    </view>
+  </view>
+</view>
+<view class='box2'>
+  <view class='box-span' style='flex:1'>
+    <text class='left'>我的回答</text>
+    <view class='right'>
+      <image src='/images/address_right.png'></image>
+    </view>
+  </view>
+</view> -->
+
+<view class="user-menu">
+    <view class="item">
+      <navigator url="/pages/ask/ask" class="a">
+        <text class="icon.feedback"></text>
+        <text class="txt">我的提问</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="/pages/ansm/ansm" class="a">
+        <text class="icon.kefu"></text>
+        <text class="txt">我的回答</text>
+      </navigator>
+    </view>
+    <view class="item ">
+      <navigator url="/pages/anspublish/anspublish" class="a">
+        <text class="icon.kefu"></text>
+        <text class="txt">发起答疑</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="/pages/help/help" class="a">
+        <text class="icon.helps"></text>
+        <text class="txt">意见反馈</text>
+      </navigator>
+    </view>
+  </view>
+
+
+<!-- <view class="tiwen">
+  <button type="default" plain="true" bindtap="gotoans2">我的提问</button>
+</view>
+
+<view class="buarea">
+  <button type="default" plain="true" bindtap="gotoans3">我的回答</button>
+</view>
+
+<view class="buarea">
+  <button type="default" plain="true" bindtap="gotoans">发起答疑</button>
+</view> -->

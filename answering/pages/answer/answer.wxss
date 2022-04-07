@@ -1,0 +1,130 @@
+page{
+  background-color:#ECECEC;
+  height:100%;
+  }
+
+.box{
+  position: relative;
+  top: 20rpx;
+  width:100%;
+  background-color: white;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.box2{
+  position: relative;
+  top: 40rpx;
+  width:100%;
+  background-color: white;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .box-span{
+  height: 80rpx;
+   margin: 20rpx; 
+}
+.box view .left{
+  position: relative;
+  top: 15rpx;
+  left: 30rpx;
+  font-size: 35rpx;
+}
+.box view .right{
+  position: relative;
+  float: right;
+  top: 25rpx;
+  right: 20rpx;
+}
+
+.box view image{
+  width: 50rpx;
+  height: 30rpx;
+  float: right;
+} 
+
+.box2 .box-span{
+  height: 80rpx;
+   margin: 20rpx; 
+}
+.box2 view .left{
+  position: relative;
+  top: 15rpx;
+  left: 30rpx;
+  font-size: 35rpx;
+}
+.box2 view .right{
+  position: relative;
+  float: right;
+  top: 25rpx;
+  right: 20rpx;
+}
+
+.box2 view image{
+  width: 50rpx;
+  height: 30rpx;
+  float: right;
+} 
+
+.buarea{
+  margin-top: 50%;
+}
+
+.user-menu{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-menu .item{
+  width: 49%;
+  height: 360rpx;
+  border-right: 1px solid rgba(0,0,0,.15);
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+
+.user-menu .item .a{
+display: flex;
+width: 100%;
+height: 100%;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.user-menu .item.no-border {
+  border-right: 0;
+}
+
+.user-menu .item.item-bottom {
+  border-bottom: none;
+}
+
+.user-menu .icon{
+  margin: 0 auto;
+  display: block;
+  height: 52.803rpx;
+  width: 52.803rpx;
+  margin-bottom: 16rpx;
+}
+
+.user-menu .icon.feedback{
+  background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/ucenter-sdf6a55ee56-f2c2b9c2f0.png) 0 -125rpx no-repeat;
+  background-size: 52.803rpx;
+}
+.user-menu .icon.kefu{
+  background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/ucenter-sdf6a55ee56-f2c2b9c2f0.png) 0 -312.5rpx no-repeat;
+  background-size: 52.803rpx;
+}
+.user-menu .icon.helps{
+  background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/ucenter-sdf6a55ee56-f2c2b9c2f0.png) 0 -250rpx no-repeat;
+  background-size: 52.803rpx;
+}

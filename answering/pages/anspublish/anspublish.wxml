@@ -1,0 +1,22 @@
+<view class="page-body">
+  <view class="page-section">
+    <view class="page-section-title">请输入答疑对象：</view>
+    <view class="textarea-wrp">
+      <textarea bindblur="bindTextAreaBlur" auto-height />
+    </view>
+    <view class="page-section-title">请输入答疑内容</view>
+    <view class="textarea-wrp">
+      <textarea bindblur="bindTextAreaBlur" auto-height />
+    </view>
+  </view>
+
+  <!-- <view class="page-section">
+    <view class="page-section-title">文本2textarea</view>
+    <view class="textarea-wrp">
+      <textarea auto-focus="true" style="height: 3em" />
+    </view>
+  </view> -->
+</view>
+  <view class="team">
+    <button form-type='submit'>提交</button>
+  </view>

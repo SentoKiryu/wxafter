@@ -1,0 +1,15 @@
+<!--pages/ansm/ansm.wxml-->
+<view>
+  <view>
+    回复于:<text> 张老师</text>
+  </view>
+  <view>
+    时间:<text> 2021-6-20</text>
+  </view>
+  <view>
+    <text class="text1">回复我：</text>
+    <view class="text2">这是一条回复</view>
+  </view>
+  <view class="line">
+  </view>
+</view>

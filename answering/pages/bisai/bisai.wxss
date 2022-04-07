@@ -1,0 +1,7 @@
+/* pages/bisai/bisai.wxss */
+.pic image{
+  width: 100%;
+}
+.title{
+  font-size: 40rpx;
+}

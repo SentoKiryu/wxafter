@@ -1,0 +1,3 @@
+<!--pages/competition/competition.wxml-->
+<button bindtap="getData">anniu</button>
+<text>{{dataList}}</text>

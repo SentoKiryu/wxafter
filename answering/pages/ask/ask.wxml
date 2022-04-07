@@ -1,0 +1,10 @@
+<view>
+  <view class="text">
+    答疑对象：<text> 张老师</text>
+  </view>
+  <view class="textarea-wrp">
+    <textarea> 这是一条提问</textarea>
+  </view>
+  <view class="line">
+  </view>
+</view>

@@ -1,0 +1,66 @@
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!--我的队伍-->
+<view hidden="{{currentTab!==0}}" wx:for="{{dataList}}" >
+<navigator  >
+    <view>
+        队伍名称：{{item.teamname}}
+    </view>
+    <view>
+        比赛类型：{{item.teamsel}}
+    </view>
+    <view>
+        需要人数：{{item.teamnum}}
+    </view>
+    <view>
+        联系方式: {{item.phone}}
+    </view>
+    <view class="line">
+    </view>
+</navigator>
+</view>
+ 
+<!--发起组队-->
+<view hidden="{{currentTab!==1}}">
+  <view class="team">
+    <label>队伍名称：</label>
+    <input  placeholder="请输入队伍名称" bindinput="getname" type="text"  class="tname"/>
+  </view>
+  <view class="team">
+    <label>队伍人数：</label>
+    <input  placeholder="请输入队伍人数" bindinput="getnum"  type="text" class="tname"/>
+  </view>
+  <view class="team">
+    <label>选择比赛：</label>
+    <input placeholder="请输入比赛类型" bindinput="gettype"  class="tname" type="text" />
+  </view>
+  <view class="team">
+    <label>队伍密码：</label>
+    <input placeholder="请创建队伍密码" bindinput="getpass"  class="tname" type="text" />
+  </view>
+  <view class="team">
+    <button form-type='submit' bindtap="add" class="btn">发起组队</button>
+  </view>
+
+</view>
+ 
+<!--加入队伍-->
+<view hidden="{{currentTab!==2}}">
+  <view class="team">
+    <label>队伍名称：</label>
+    <input id="tname" name="tname" placeholder="请输入队伍名称" bindinput="" value="" maxlength="" class="tname"
+    type="" onblur=""/>
+  </view>
+  <view class="team">
+    <label>队伍密码：</label>
+    <input id="tpassw" name="tpassw" placeholder="请输入队伍密码" bindinput="" value="" maxlength="" class="tname"
+    type="" onblur=""/>
+  </view>
+  <view class="team">
+    <button form-type='submit' class="btn">加入队伍</button>
+  </view>
+
+</view>

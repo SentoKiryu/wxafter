@@ -1,0 +1,193 @@
+page{
+  background-color:#ECECEC;
+  height:100%;
+  }
+  .userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #aaa;
+    
+  }
+  
+  .userinfo-avatar {
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    top: 120rpx;
+    border-radius: 50%;
+    margin-top: 100rpx;
+  }
+
+.title-card{
+  background-color: #e6e6fa;
+  border-radius: 20rpx;
+  height: 400rpx;
+  width: 100%;
+  text-align: center;
+}
+
+.title-card view .touxiang{
+  margin-top: 100rpx; 
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  /* background-color: white; */
+}
+.link{
+  height: 5rpx;
+  background-color: #ECECEC;
+  width: 95%;
+  position: relative;
+  left: 20rpx;
+}
+.box{
+  position: relative;
+  top: 20rpx;
+  /* height: 400rpx;  */
+  width:100%;
+  background-color: white;
+  border-radius: 20rpx;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: column;
+}
+.box .box-span{
+  height: 80rpx;
+   margin: 20rpx; 
+}
+.box view .left{
+  position: relative;
+  top: 15rpx;
+  left: 30rpx;
+  font-size: 35rpx;
+}
+.box view .right{
+  position: relative;
+  float: right;
+  top: 25rpx;
+  right: 20rpx;
+}
+
+.box view image{
+  width: 50rpx;
+  height: 30rpx;
+  float: right;
+} 
+
+.box2{
+  position: relative;
+  top: 50rpx;
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  border-radius: 20rpx;
+}
+.box2 text{
+  position: absolute; 
+  top: 25rpx;
+  left: 50rpx;
+  font-size: 35rpx;
+}
+.box2 .box-span{
+  height: 80rpx;
+   margin: 20rpx; 
+}
+.box2 view .right{
+  position: relative;
+  float: right;
+  top: 25rpx;
+  right: 20rpx;
+}
+.box2 view image{
+  width: 50rpx;
+  height: 30rpx;
+  float: right;
+} 
+
+.box3{
+  position: relative;
+  top: 70rpx;
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  border-radius: 20rpx;
+}
+.box3 text{
+  position: absolute; 
+  top: 25rpx;
+  left: 50rpx;
+  font-size: 35rpx;
+}
+.box3 .box-span{
+  height: 80rpx;
+   margin: 20rpx; 
+}
+.box3 view .right{
+  position: relative;
+  float: right;
+  top: 25rpx;
+  right: 20rpx;
+}
+.box3 view image{
+  width: 50rpx;
+  height: 30rpx;
+  float: right;
+} 
+
+.box4{
+  position: relative;
+  top: 90rpx;
+  width: 100%;
+  height: 100rpx;
+  
+  border-radius: 20rpx;
+}
+.box4 text{
+  position: absolute; 
+  top: 25rpx;
+  left: 50rpx;
+  font-size: 35rpx;
+}
+.box4 .box-span{
+  height: 80rpx;
+   margin: 20rpx; 
+}
+.box4 view .right{
+  position: relative;
+  float: right;
+  top: 25rpx;
+  right: 20rpx;
+}
+.box4 view image{
+  width: 50rpx;
+  height: 30rpx;
+  float: right;
+} 
+
+.box6{
+  position: relative;
+  top: 80rpx;
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  border-radius: 20rpx;
+}
+.box6 text{
+  position: relative; 
+  top: 25rpx;
+  left: 50rpx;
+  font-size: 35rpx;
+}
+
+.button{
+  position: relative;
+  top: 140rpx;
+  width: 130rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  padding: 0rpx;
+  color: black;
+  background-color: white;
+}

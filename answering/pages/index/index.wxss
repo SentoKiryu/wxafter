@@ -1,0 +1,82 @@
+
+.header{
+  width: 750rpx;
+  height: 90rpx;
+  border: 1px;
+}
+.headercon{
+  display: flex;
+  justify-content: 
+  space-around;
+  align-items: center;
+  height: 100%;
+}
+.headercon navigator{height: 50rpx;}
+.headercon image{height: 100%;}
+
+.banner{
+  width: 100%;
+  height: 380rpx;
+}
+.banner swiper{
+  height: 100%;
+  width: 100%;
+}
+.banner image{
+  width: 100%;
+  height: 380rpx;
+}
+
+.pubtitle{
+  display: flex;
+  justify-content: space-between;
+  height: 50rpx;
+  align-items: center;
+}
+.pubtitle .text{
+  font-size: 40rpx;
+  position: relative;
+  height: 100%;
+  padding-left: 20rpx;
+}
+.pubtitle .text::before{
+  display: block;
+  width: 7rpx;
+  height: 35rpx;
+  background-color: #d80b07;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -15rpx;
+}
+.pubtitle .more{
+  font-size: 34rpx;
+  color: #666;
+}
+.dynamic{padding:20rpx 0}
+.dyitem{
+  display: flex;
+  padding: 15rpx 0;
+  border: 1rpx dashed #eee;
+  justify-content: space-between;
+}
+.dyitem .pic{
+  width: 230rpx;
+  height: 150rpx;
+}
+.dyitem .pic image{
+  width: 100%;
+  height: 100%;
+}
+.dyitem .text{
+  width: 440rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dyitem .title{font-size: 35rpx;}
+.dyitem .info{
+  font-size: 25rpx;
+  color: #888;
+}

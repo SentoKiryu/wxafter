@@ -1,0 +1,169 @@
+.box{
+  width: 100%;
+  position: relative;
+}
+.nc{
+  /* margin-top: 20rpx;
+  margin-left: 20rpx; */
+  position:absolute;
+  top: 20rpx;
+  left: 20rpx;
+}
+.xs{
+  /* margin-top: 20rpx; */
+  position:absolute;
+  top: 20rpx;
+  right: 50rpx;
+}
+.box view image{
+  width: 50rpx;
+  height: 50rpx;
+  /* margin-top: 20rpx;
+  margin-right: 10rpx; */
+  position:absolute;
+  top: 20rpx;
+  right: 10rpx;
+}
+.line{
+  position:absolute;
+  margin-top: 80rpx;
+  width:100%;
+  height:1rpx;
+  background:#aaa;
+  }
+
+  .box2{
+    width: 100%;
+    position: relative;
+  }
+  .nc2{
+    /* margin-top: 20rpx;
+    margin-left: 20rpx; */
+    position:absolute;
+    top: 100rpx;
+    left: 20rpx;
+  }
+  .xs2{
+    /* margin-top: 20rpx; */
+    position:absolute;
+    top: 100rpx;
+    right: 50rpx;
+  }
+  .box2 view image{
+    width: 50rpx;
+    height: 50rpx;
+    /* margin-top: 20rpx;
+    margin-right: 10rpx; */
+    position:absolute;
+    top: 100rpx;
+    right: 10rpx;
+  }
+  .line2{
+    position:absolute;
+    margin-top: 160rpx;
+    width:100%;
+    height:1rpx;
+    background:#aaa;
+    }
+
+    .box3{
+      width: 100%;
+      position: relative;
+    }
+    .nc3{
+      /* margin-top: 20rpx;
+      margin-left: 20rpx; */
+      position:absolute;
+      top: 180rpx;
+      left: 20rpx;
+    }
+    .xs3{
+      /* margin-top: 20rpx; */
+      position:absolute;
+      top: 180rpx;
+      right: 50rpx;
+    }
+    .box3 view image{
+      width: 50rpx;
+      height: 50rpx;
+      /* margin-top: 20rpx;
+      margin-right: 10rpx; */
+      position:absolute;
+      top: 180rpx;
+      right: 10rpx;
+    }
+    .line3{
+      position:absolute;
+      margin-top: 240rpx;
+      width:100%;
+      height:1rpx;
+      background:#aaa;
+      }
+
+      .box4{
+        width: 100%;
+        position: relative;
+      }
+      .nc4{
+        /* margin-top: 20rpx;
+        margin-left: 20rpx; */
+        position:absolute;
+        top: 260rpx;
+        left: 20rpx;
+      }
+      .xs4{
+        /* margin-top: 20rpx; */
+        position:absolute;
+        top: 260rpx;
+        right: 50rpx;
+      }
+      .box4 view image{
+        width: 50rpx;
+        height: 50rpx;
+        /* margin-top: 20rpx;
+        margin-right: 10rpx; */
+        position:absolute;
+        top: 260rpx;
+        right: 10rpx;
+      }
+      .line4{
+        position:absolute;
+        margin-top: 320rpx;
+        width:100%;
+        height:1rpx;
+        background:#aaa;
+        }
+
+        .box5{
+          width: 100%;
+          position: relative;
+        }
+        .nc5{
+          /* margin-top: 20rpx;
+          margin-left: 20rpx; */
+          position:absolute;
+          top: 340rpx;
+          left: 20rpx;
+        }
+        .xs5{
+          /* margin-top: 20rpx; */
+          position:absolute;
+          top: 340rpx;
+          right: 50rpx;
+        }
+        .box5 view image{
+          width: 50rpx;
+          height: 50rpx;
+          /* margin-top: 20rpx;
+          margin-right: 10rpx; */
+          position:absolute;
+          top: 340rpx;
+          right: 10rpx;
+        }
+        .line5{
+          position:absolute;
+          margin-top: 400rpx;
+          width:100%;
+          height:1rpx;
+          background:#aaa;
+          }

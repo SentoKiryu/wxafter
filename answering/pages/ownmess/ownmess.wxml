@@ -1,0 +1,59 @@
+<view class="box">
+<navigator >
+  <text class="nc">昵称</text>
+  <view class='tp'>
+    <image src='/images/address_right.png' url></image>
+  </view>
+  <text class="xs">发酵雨</text>
+  <view class="line">
+  </view>
+</navigator>
+</view>
+
+<view class="box2">
+<navigator >
+  <text class="nc2">ID</text>
+  <view class='tp2'>
+    <image src='/images/address_right.png' url></image>
+  </view>
+  <text class="xs2">100011</text>
+  <view class="line2">
+  </view>
+</navigator>
+</view>
+
+<view class="box3">
+  <navigator >
+    <text class="nc3">联系方式</text>
+    <view class='tp3'>
+      <image src='/images/address_right.png' url></image>
+    </view>
+    <text class="xs3">123456789</text>
+    <view class="line3">
+    </view>
+  </navigator>
+</view>
+
+<view class="box4">
+  <navigator >
+    <text class="nc4">班级</text>
+    <view class='tp4'>
+      <image src='/images/address_right.png' url></image>
+    </view>
+    <text class="xs4">一年级一班</text>
+    <view class="line4">
+    </view>
+  </navigator>
+</view>
+
+<view class="box5">
+  <navigator >
+    <text class="nc5">邮箱</text>
+    <view class='tp5'>
+      <image src='/images/address_right.png' url></image>
+    </view>
+    <text class="xs5">123456789@outlook.com</text>
+    <view class="line5">
+    </view>
+  </navigator> 
+</view>
