@@ -1,2 +1,2 @@
 # wxafter
-Campus transactions wechat mini program
+Campus transactions wechat mini program for wx
